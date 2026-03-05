@@ -38,3 +38,11 @@ console.log('Nome da rua:', aluno['endereco']['rua']);
 
 aluno.olaAluno();
 aluno.matricular();
+
+// factory de alunos
+function criarAluno(nome, sobrenome) {
+    return {
+        nome,
+        sobrenome
+    }
+}
