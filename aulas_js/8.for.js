@@ -41,3 +41,25 @@ for (const atributo in aluno) {
     console.log(
         'Conteúdo do atributo:', aluno[atributo]);
 }
+
+const printFruta = fruta => console.log(fruta);
+console.log('Usando programação funcional');
+frutas.forEach(printFruta);
+
+/* Ideia desse .forEach
+
+const frutas = [
+    printFruta('Maçã'), 
+    printFruta('Pêra'), 
+    printFruta('Uva'),
+    printFruta('Abacaxi')
+];
+*/
+
+const numeros = [2, 4, 9, 11, 12];
+const ehPar =
+    numero => (numero % 2 === 0) ? 'é par' : 'é ímpa';
+// laço de repetição com programação funcional
+// map
+let resultado = numeros.map(ehPar);
+console.log(resultado);
