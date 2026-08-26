@@ -1,0 +1,16 @@
+{
+  "name": "meu-projeto-superheroes",
+  "version": "1.0.0",
+  "description": "Aprendendo a usar o pacote superheroes do npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Paulo Muniz",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "superheroes": "^4.0.0"
+  }
+}
